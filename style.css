@@ -1,0 +1,156 @@
+* {
+  font-family: "Gorditas", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playpen Sans", cursive;
+  font-family: "Poppins", sans-serif;
+
+  font-family: "Raleway", sans-serif;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    background-color: none;
+    color: black;
+}
+
+html,
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(140, 95, 149);
+}
+
+.box {
+  height: 400px;
+  width: 320px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.top {
+  width: 100%;
+  height: 35%;
+  background-color: rgb(76, 14, 91);
+}
+
+.bottom {
+  width: 100%;
+  height: 65%;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.one {
+  color: blue;
+}
+.two {
+  color: red;
+}
+.photo {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  top: 23.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(imh23.jpeg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid white;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+i {
+  font-size: 27px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.button {
+  display: flex;
+  flex: row;
+  gap: 35px;
+}
+
+button {
+  border-color: white;
+  border-radius: 6%;
+  border-style: none;
+  background-color: rgb(25, 150, 248);
+  width: 90px;
+  height: 30px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  scale: 1.03;
+  background-color: blue;
+}
+.icons2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.ic {
+  opacity: 0.6;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.ic:hover {
+  scale: 1.1;
+  opacity: 1;
+}
+
+.one:hover,
+.two:hover,
+.three:hover {
+  scale: 1.1;
+}
